@@ -21,3 +21,11 @@ class NetworkModel:
             return y_hat
         except Exception as e:
             raise PCOSException(e,sys)
+
+    def predict_proba(self, x):
+        try:
+            x_transform = self.preprocessor.transform(x)
+            y_prob = self.model.predict_proba(x_transform)
+            return y_prob
+        except Exception as e:
+            raise PCOSException(e, sys)

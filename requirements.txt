@@ -9,6 +9,8 @@ mlflow
 pyaml
 dagshub
 fastapi
+streamlit
+transformers
 uvicorn
 python-multipart
 awscli
