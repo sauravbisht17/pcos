@@ -1,6 +1,9 @@
 python-dotenv
 pandas
 numpy
+pytest
+flake8
+pytest-mock
 pymongo
 certifi
 pymongo[srv]
