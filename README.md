@@ -31,5 +31,5 @@ This project aims to predict the likelihood of Polycystic Ovary Syndrome (PCOS) 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/pcos-prediction.git
-   cd pcos-prediction
+   git clone https://github.com/sauravbisht17/pcos.git
+   cd pcos
